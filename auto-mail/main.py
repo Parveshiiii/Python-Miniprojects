@@ -19,5 +19,5 @@ def mail(to: str, subject: str):
     return email
 
 # Example usage
-automail = mail("pr086832@gmail.com", "Hello from Resend")
+automail = mail("your mail", "Hello from Resend")
 print(automail)
