@@ -64,8 +64,8 @@ print("=================================")
 x = "y"
 
 while x == "y":
-    randon_outcome = random.choice(outcomes)
-    for outcome in randon_outcome:
-        print(outcome)
+    random_outcome = random.choice(outcomes)
+    print(random_outcome)   # print the whole dice face at once
     
-    x =  input("Press y to roll again ")
+    x = input("Press y to roll again ")
+
