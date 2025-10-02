@@ -5,4 +5,7 @@ def address(email: str):#we want email to be a string
         return f"Its a invalid email --{email}"
 
 
-    
+test = adress("iamspider@gmail.com")
+print(test)
+
+#expected ans = Its a valid email --iamspider@gmail.com
