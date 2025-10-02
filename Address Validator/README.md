@@ -1,6 +1,11 @@
-## Address Validator 
+# Address Validator
 
-**intro**
----
+## 📝 Introduction
+This is a very basic email validator written in Python.  
+It checks whether the input string contains both `"@"` and `"."` — the minimal requirements for a valid email format.
 
-its a very simple email validator we just verify "." and "@" in the Parameter given by user
+## 🔧 How It Works
+- The user provides an email string as a parameter.
+- The function returns `Valid message` if both `"@"` and `"."` are present.
+- Otherwise, it returns `invalid message`.
+
